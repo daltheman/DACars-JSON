@@ -15,12 +15,16 @@
 		38E7947C282C9CDC00BDBC47 /* DACars_JSON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38E79450282C9CDB00BDBC47 /* DACars_JSON.xcdatamodeld */; };
 		38E7947D282C9CDC00BDBC47 /* DACars_JSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79452282C9CDB00BDBC47 /* DACars_JSONApp.swift */; };
 		38E7947E282C9CDC00BDBC47 /* DACars_JSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79452282C9CDB00BDBC47 /* DACars_JSONApp.swift */; };
-		38E7947F282C9CDC00BDBC47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79453282C9CDB00BDBC47 /* ContentView.swift */; };
-		38E79480282C9CDC00BDBC47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79453282C9CDB00BDBC47 /* ContentView.swift */; };
 		38E79481282C9CDC00BDBC47 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79454282C9CDB00BDBC47 /* Persistence.swift */; };
 		38E79482282C9CDC00BDBC47 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79454282C9CDB00BDBC47 /* Persistence.swift */; };
 		38E79483282C9CDC00BDBC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E79455282C9CDC00BDBC47 /* Assets.xcassets */; };
 		38E79484282C9CDC00BDBC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E79455282C9CDC00BDBC47 /* Assets.xcassets */; };
+		38E79494282C9D3800BDBC47 /* CarsDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = 38E79493282C9D3700BDBC47 /* CarsDatabase.json */; };
+		38E79495282C9D3800BDBC47 /* CarsDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = 38E79493282C9D3700BDBC47 /* CarsDatabase.json */; };
+		38E79497282C9D6300BDBC47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79496282C9D6300BDBC47 /* ContentView.swift */; };
+		38E79498282C9D6300BDBC47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79496282C9D6300BDBC47 /* ContentView.swift */; };
+		38E7949A282C9EBC00BDBC47 /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79499282C9EBC00BDBC47 /* CarsModel.swift */; };
+		38E7949B282C9EBC00BDBC47 /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E79499282C9EBC00BDBC47 /* CarsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 /* Begin PBXFileReference section */
 		38E79451282C9CDB00BDBC47 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		38E79452282C9CDB00BDBC47 /* DACars_JSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DACars_JSONApp.swift; sourceTree = "<group>"; };
-		38E79453282C9CDB00BDBC47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38E79454282C9CDB00BDBC47 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		38E79455282C9CDC00BDBC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38E7945A282C9CDC00BDBC47 /* DACars-JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DACars-JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +58,9 @@
 		38E79473282C9CDC00BDBC47 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E79477282C9CDC00BDBC47 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		38E79479282C9CDC00BDBC47 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		38E79493282C9D3700BDBC47 /* CarsDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarsDatabase.json; sourceTree = "<group>"; };
+		38E79496282C9D6300BDBC47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38E79499282C9EBC00BDBC47 /* CarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				38E79452282C9CDB00BDBC47 /* DACars_JSONApp.swift */,
-				38E79453282C9CDB00BDBC47 /* ContentView.swift */,
+				38E79496282C9D6300BDBC47 /* ContentView.swift */,
 				38E79454282C9CDB00BDBC47 /* Persistence.swift */,
+				38E79493282C9D3700BDBC47 /* CarsDatabase.json */,
+				38E79499282C9EBC00BDBC47 /* CarsModel.swift */,
 				38E79455282C9CDC00BDBC47 /* Assets.xcassets */,
 				38E79450282C9CDB00BDBC47 /* DACars_JSON.xcdatamodeld */,
 			);
@@ -275,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E79483282C9CDC00BDBC47 /* Assets.xcassets in Resources */,
+				38E79494282C9D3800BDBC47 /* CarsDatabase.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E79484282C9CDC00BDBC47 /* Assets.xcassets in Resources */,
+				38E79495282C9D3800BDBC47 /* CarsDatabase.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E7949A282C9EBC00BDBC47 /* CarsModel.swift in Sources */,
 				38E7947B282C9CDC00BDBC47 /* DACars_JSON.xcdatamodeld in Sources */,
+				38E79497282C9D6300BDBC47 /* ContentView.swift in Sources */,
 				38E79481282C9CDC00BDBC47 /* Persistence.swift in Sources */,
 				38E7947D282C9CDC00BDBC47 /* DACars_JSONApp.swift in Sources */,
-				38E7947F282C9CDC00BDBC47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E7949B282C9EBC00BDBC47 /* CarsModel.swift in Sources */,
 				38E7947C282C9CDC00BDBC47 /* DACars_JSON.xcdatamodeld in Sources */,
+				38E79498282C9D6300BDBC47 /* ContentView.swift in Sources */,
 				38E79482282C9CDC00BDBC47 /* Persistence.swift in Sources */,
 				38E7947E282C9CDC00BDBC47 /* DACars_JSONApp.swift in Sources */,
-				38E79480282C9CDC00BDBC47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
